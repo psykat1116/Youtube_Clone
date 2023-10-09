@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Run the app
+
+### `npm install`
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -29,7 +33,13 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+- 'npm install'
+- Go to the Rapid API website and create an account
+- Search For the API called "Youtube v3"
+- Subscribe to the API
+- Then copy the RAPID API KEY
+- Go to the src/utils/fetchFromApi.js then paste the API KEY in the "X-RapidAPI-Key" field
+- The run the command 'npm start' in the terminal
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
