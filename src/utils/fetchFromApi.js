@@ -17,7 +17,6 @@ export default async function fetchFromApi(url) {
     const respose = await axios.get(`${BASE_URL}/${url}`, options);
     return respose.data;
   } catch (error) {
-    console.log(error);
     throw new Error(error);
   }
 }
